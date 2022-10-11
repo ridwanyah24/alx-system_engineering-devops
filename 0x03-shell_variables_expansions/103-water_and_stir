@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e $((echo bestcholo$WATER\p | dc) + (echo bestcholo$STIR\p | dc))
+echo $((echo bestcholo $WATER p | dc) + (echo bestcholo $STIR p | dc))
