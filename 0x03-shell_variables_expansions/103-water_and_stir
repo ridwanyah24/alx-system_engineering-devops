@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $((echo bconvert -i water -o bestchol $WATER) + (echo bconvert -i water -o bestchol $STIR))
