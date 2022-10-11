@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((echo bconvert -i water -o bestchol $WATER) + (echo bconvert -i water -o bestchol $STIR))
+echo -e $((echo bestcholo$WATER\p | dc) + (echo bestcholo$STIR\p | dc))
